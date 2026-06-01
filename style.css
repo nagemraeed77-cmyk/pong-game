@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 0 0 10px rgba(102, 126, 234, 0.8);
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.player-score,
+.computer-score {
+    text-align: center;
+}
+
+.player-score h2,
+.computer-score h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #667eea;
+}
+
+.player-score p,
+.computer-score p {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(102, 126, 234, 0.6);
+}
+
+.divider {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #764ba2;
+}
+
+canvas {
+    background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+    border: 3px solid #667eea;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+}
+
+.instructions {
+    color: #ccc;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+.instructions p {
+    margin: 5px 0;
+}
+
+.instructions strong {
+    color: #667eea;
+}
